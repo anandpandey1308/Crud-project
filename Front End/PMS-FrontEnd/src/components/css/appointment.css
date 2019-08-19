@@ -1,0 +1,8 @@
+#appointment_heading {
+  background-color: "#E8ECEF";
+  border-radius: 5;
+  padding-top: 25;
+  padding-bottom: 25;
+  display: "flex";
+  justify-content: "center";
+}

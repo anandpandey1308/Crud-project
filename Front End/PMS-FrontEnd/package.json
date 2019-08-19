@@ -1,0 +1,48 @@
+{
+  "name": "ps-flux",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.3",
+    "flux": "^3.1.3",
+    "formik": "^1.5.8",
+    "mdbreact": "^4.19.0",
+    "mysql": "^2.15.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "react-text-marquee": "^1.0.1",
+    "react-toastify": "^5.1.1"
+  },
+  "scripts": {
+    "start": "run-p start:dev",
+    "start:dev": "cross-env react-scripts start",
+    "build": "react-scripts build && rm -rf ../appointment/src/main/resources/static && mv build ../appointment/src/main/resources/static",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "json-server": "^0.15.0",
+    "npm-run-all": "^4.1.5"
+  }
+}
